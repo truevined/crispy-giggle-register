@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.header {
+	background-color: #282c34;
+	height: fit-content;
+    display: block;
+	height: 70px;
+    flex-direction: column;
+    text-align: right;
+    font-size: calc(10px + 1vw);
+    color: white;
+    width: 100%;
+}
+
+.title {
+    padding: 14px 21px;
+}
+
+.credit, .debit, .cash, .groceries { margin:4px; }
+
+.sign-out:hover, .settings:hover, .logo:hover{
+	background: #4a4a4a;
+}
+
+.sign-out, .settings, .logo {
+    position: relative;
+    padding: 7px;
+    margin: 16px 7px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    float: left;
+	background: #777;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+button.groceries.btn.btn-secondary {
+    height: 140px;
+    width: 140px;
+	margin: 7px;
+}
+
+.items.row {
+    display: inline-block;
+    text-align: center;
+}
+
+.to-buy {
+    height: 30vh;
+    background: #fff;
+    border-radius: 3px;
+}
+
+.description-total {
+    height: 40vh;
+    background: #dcdcdc;
+    padding: 12px;
+}
+
+.foodables {
+	height: 20vh;
+    background: #cacaca;
+    padding: 12px;
+	margin-top: 20px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
